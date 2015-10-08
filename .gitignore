@@ -83,4 +83,4 @@ node_modules
 /bottles.js
 /bundle.js
 /sing.js
-/step_definitions/**/*.js
+/test/step_definitions/**/*.js

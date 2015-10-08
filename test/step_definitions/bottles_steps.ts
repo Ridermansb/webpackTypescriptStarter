@@ -6,7 +6,7 @@ export = function() {
     var bottle, Bottle, currentPhrase;
 
     this.Before((scenario, callback) => {
-        Bottle = require("../bottles").Bottles;
+        Bottle = require("../../bottles").Bottles;
         callback();
     });
 

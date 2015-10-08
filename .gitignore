@@ -60,7 +60,7 @@ coverage
 /out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+.idea_modules/\
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -81,5 +81,6 @@ node_modules
 /typings
 *.js.map
 /bottles.js
+/bundle.js
 /sing.js
 /step_definitions/**/*.js

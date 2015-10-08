@@ -82,5 +82,6 @@ node_modules
 *.js.map
 /bottles.js
 /bundle.js
+/app.js
 /sing.js
 /test/step_definitions/**/*.js

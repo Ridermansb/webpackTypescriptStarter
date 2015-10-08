@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 var webpackConfigs = {
     cache: true,
-    entry: __dirname + '/bottles.ts',
+    entry: __dirname + '/app.ts',
     devtool: 'source-map',
     output: {
         path: __dirname,

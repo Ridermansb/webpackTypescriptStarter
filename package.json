@@ -1,0 +1,19 @@
+{
+  "name": "webpacktypescriptstarter",
+  "version": "1.0.0",
+  "description": "`npm init`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ridermansb",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "cucumber": "^0.6.0",
+    "jasmine": "^2.3.2",
+    "typescript": "^1.6.2",
+    "typescript-node": "^0.1.3",
+    "webpack": "^1.12.2"
+  }
+}

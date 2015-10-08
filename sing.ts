@@ -1,6 +1,7 @@
-export class Bottles {
+export class Sing {
 
-    phraseFor(paragraph: string) : string {
+    paragraph(paragraph: string) : string {
+
         if (paragraph == 'first') {
             return this.beerOnWall + " bottles of beer on the wall, " + this.beerOnWall + " bottles of beer.";
         } else if (paragraph == 'second') {
@@ -11,6 +12,5 @@ export class Bottles {
         }
     }
 
-    constructor(public beerOnWall : number) { }
-
+    constructor(public beerOnWall : number) {}
 }
